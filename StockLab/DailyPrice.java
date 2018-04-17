@@ -1,4 +1,4 @@
-package StockLab;
+ 
 
 
 public class DailyPrice{

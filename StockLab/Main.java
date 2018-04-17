@@ -1,11 +1,9 @@
-package StockLab;
-
 import java.util.*;
 import java.io.*;
 public class Main
 {
     public static void main(String[] args) throws Exception{
-        String fileLoc = "C:\\Users\\Kai P\\Desktop\\stockLab-20180412T140334Z-001\\stockLab_Fin\\Store\\";
+        String fileLoc = "C:\\Users\\Kai P\\Documents\\GitHub\\Airshipdown1\\stockLab\\StockLab\\Store\\";
         Scanner input = new Scanner(new File("QQQ-Prices.txt"));
         Stock stock = new Stock(input.nextLine());
         while(input.hasNextLine()){
