@@ -22,4 +22,8 @@ public class DailyPrice{
     public String getDate(){
         return date;
     }
+    
+    public String toString(){
+        return hashDate+": "+price;
+    }
 }

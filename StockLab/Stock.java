@@ -85,4 +85,21 @@ public class Stock{
         }
         return sumtotal;   
     }
+    
+    public DailyPrice getPrices(int n){
+        return prices.get(n);
+    }
+    
+    public double findPrice (String n){
+        
+        int hashd = hashDate(n);
+        
+        for(DailyPrice value : prices){
+            if(value.getHash()==hashd){
+                return value.getPrice();
+            }
+                
+        }
+        return -1.0;
+    }
 }
