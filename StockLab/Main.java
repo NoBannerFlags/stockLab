@@ -37,7 +37,7 @@ public class Main
         bw0 = new BufferedWriter(fw0);
         bw0.append("Found price at 24-Mar-2000: "+stock.findPrice("24-Mar-00"));
         System.out.println("value at October 7, 2002 7-Oct-2002: "+stock.findPrice("7-Oct-00"));
-        bw0.append();
+        //bw0.append();
         bw0.flush();
         bw0.close();
     }
