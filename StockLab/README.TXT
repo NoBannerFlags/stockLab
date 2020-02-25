@@ -4,9 +4,8 @@ Tell the reader (someone who does not know anything about this project)
 all he/she needs to know. The comments should usually include at least:
 ------------------------------------------------------------------------
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
+PROJECT TITLE: StockLab
+PURPOSE OF PROJECT: Class Project - Object Oriented Programming 2017
+VERSION or DATE: v 1
+AUTHORS: Malokai Persoff
 USER INSTRUCTIONS:
