@@ -1,1 +1,2 @@
-Blank price file
+Stock Symbol (QQQ example)  
+dd-Month-yy         Price
