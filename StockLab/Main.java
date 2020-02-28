@@ -2,6 +2,7 @@ import java.util.*;
 import java.io.*;
 public class Main
 {
+    
     public static void main(String[] args) throws Exception{
         String fileLoc = "C:\\Users\\Public\\Documents\\GitHub\\stockLab\\StockLab\\Store\\";
         String fileLoc0 = "C:\\Users\\Public\\Documents\\GitHub\\stockLab\\StockLab\\Found_Dates\\";
