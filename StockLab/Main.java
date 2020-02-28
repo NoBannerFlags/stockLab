@@ -3,8 +3,8 @@ import java.io.*;
 public class Main
 {
     public static void main(String[] args) throws Exception{
-        String fileLoc = "C:\\Users\\Kai P\\Documents\\GitHub\\Airshipdown1\\stockLab\\StockLab\\Store\\";
-        String fileLoc0 = "C:\\Users\\Kai P\\Documents\\GitHub\\Airshipdown1\\stockLab\\StockLab\\Found_Dates\\";
+        String fileLoc = "C:\\Users\\Public\\Documents\\GitHub\\stockLab\\StockLab\\Store\\";
+        String fileLoc0 = "C:\\Users\\Public\\Documents\\GitHub\\stockLab\\StockLab\\Found_Dates\\";
         Scanner input = new Scanner(new File("QQQ-Prices.txt"));
         Stock stock = new Stock(input.nextLine());
         while(input.hasNextLine()){
